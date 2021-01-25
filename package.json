@@ -1,54 +1,26 @@
 {
   "name": "netlify-shortener",
-  "version": "0.0.0-semantically-released",
-  "description": "Uses netlify's redirect functionality to make a personal URL shortener. Works beautifully :)",
-  "main": "dist/index.js",
-  "bin": {
-    "netlify-shortener": "./dist/index.js"
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "netlify-shortener": "^2.4.0"
   },
-  "keywords": [],
-  "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com)",
-  "license": "MIT",
-  "engines": {
-    "node": ">=10",
-    "npm": ">=6"
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "shorten": "netlify-shortener"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kentcdodds/netlify-shortener"
+    "url": "git+https://github.com/GluedNetwork/netlify-shortener.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kentcdodds/netlify-shortener/issues"
+    "url": "https://github.com/GluedNetwork/netlify-shortener/issues"
   },
-  "homepage": "https://github.com/kentcdodds/netlify-shortener#readme",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "kcd-scripts build",
-    "lint": "kcd-scripts lint",
-    "setup": "npm install && npm run validate -s",
-    "test": "kcd-scripts test",
-    "test:update": "npm test -- --updateSnapshot --coverage",
-    "validate": "kcd-scripts validate"
-  },
-  "dependencies": {
-    "@babel/runtime": "^7.9.6",
-    "clipboardy": "^2.3.0",
-    "read-pkg-up": "^7.0.1"
-  },
-  "devDependencies": {
-    "kcd-scripts": "^7.1.0"
-  },
-  "eslintConfig": {
-    "extends": "./node_modules/kcd-scripts/eslint.js",
-    "rules": {
-      "no-console": "off"
-    }
-  },
-  "eslintIgnore": [
-    "node_modules",
-    "coverage",
-    "dist"
-  ]
+  "homepage": "https://catchfire.cc"
+  
 }
