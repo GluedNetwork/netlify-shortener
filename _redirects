@@ -2,12 +2,16 @@
 /yts       https://www.youtube.com/channel/UCdkoR4tJna8oaHHmv67YTvw?sub_confirmation=1
 /fb        https://www.facebook.com/getcatchfire
 /tw        http://twitter.com/getcatchfire
+/twitch    https://www.twitch.tv/catchfireshow
 /ig        https://www.instagram.com/getcatchfire
 /pt        https://www.pinterest.com/catchfireshowpodcast
 /md        https://medium.com/catchfire
 /ln        https://www.linkedin.com/company/getcatchfire
 /jobs      https://catchfire.show/jobs/featured
-/example   http://example.com
+/apple     https://podcasts.apple.com/us/podcast/catch-fire-show/id1513500111
+/spotify   https://open.spotify.com/show/47EIWNNOV5Kc1ogZQk5jnK?si=HWjoElRuRoqvGsL2kanJUA
+/google    https://podcasts.google.com/?feed%3DaHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjI4MjI0MDM4MC9zb3VuZHMucnNz
+
 
 #fallback
 /*         https://catchfire.show
